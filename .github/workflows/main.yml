@@ -29,6 +29,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install streamlit
           pip install streamlit_option_menu
+          pip install pandas pyreadstat
+
+      - name:  read .sav file
+        run: python read_sav.py
+       
        
 
       # Step 4: Run the appsslication
