@@ -30,9 +30,7 @@ jobs:
           pip install streamlit_option_menu
           pip install pandas pyreadstat
 
-      # Step 4: Read the .sav file
-      - name: Read .sav file
-        run: python read_sav.py  # ✅ Corrected filename
+      
 
       # Step 5: Run the application
       - name: Run app.py
